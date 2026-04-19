@@ -1,0 +1,196 @@
+
+1.Index.html
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   
+
+    <style>
+        body {
+            background-color:  #82eaf8; /* Ou a cor que você escolheu */
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Nome - Portfólio</title>
+    
+</head>
+<body>
+
+  
+    <nav>
+       
+        <a href="index.html">Início</a> |
+        <a href="sobre.html">Sobre Mim</a> |
+        <a href="contato.html">Contato</a>
+
+        
+
+    </nav>
+
+    <main>
+        
+        <p>
+            Olá! Bem-vindo(a) ao meu espaço online. Sou Gustavo, tenho 21 anos e este mini-site foi criado para apresentar um pouco sobre mim, meus interesses e como você pode entrar em contato. Explore as seções para saber mais!
+        </p>
+
+        
+    </main>
+
+    <footer>
+        <p>Gustavo Dos Santos Oppelt</p>
+       
+    </footer>
+
+</body>
+</html>
+
+2.sobre.html (Sobre mim)
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Mim - Gustavo Dos Snatos Oppelt</title>
+    
+</head>
+<body>
+
+    <header>
+        <h1>Sobre Mim</h1>
+    </header>
+
+    <nav>
+        
+        <a href="index.html">Início</a> |
+        <a href="sobre.html">Sobre Mim</a> |
+        <a href="contato.html">Contato</a>
+    </nav>
+
+    <main>
+       
+        <p>
+            Sou Gustavo, um Estudante de ciências da computação apaixonado por tecnologia e inovação. Atualmente, estou focado em aprender mais sobre html. Minha jornada na área de desenvolvimento web começou com o objetivo de se desenvolver no mercado de trabalho futuramente. 
+        </p>
+        
+
+        <h2>Meus Hobbies e Interesses</h2>
+        
+        <ul>
+            <li>Programação e Desenvolvimento Web</li>
+            <li>filmes de ficção científica</li>
+            <li>Ouvir musicas</li>
+            <li>animes</li>
+        </ul>
+
+        <h2>Uma Imagem Ilustrativa</h2>
+        
+         <img src="c:\Users\user\Downloads\Controle-do-Xbox-One.jpg"alt="Uma descrição da minha foto" width="300"> 
+      
+    </main>
+
+    <footer>
+    <h1> Gustavo Dos Santos Oppelt</h1>
+    </footer>
+
+ </body>
+ </html>
+
+3.contato.html (Contato)
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - [Seu Nome]</title>
+    <!-- Comentário: Página de Contato -->
+</head>
+<body>
+
+    <header>
+        <h1>Entre em Contato</h1>
+    </header>
+
+    <nav>
+        <!-- Menu de navegação com links para as outras páginas -->
+        <a href="index.html">Início</a> |
+        <a href="sobre.html">Sobre Mim</a> |
+        <a href="contato.html">Contato</a>
+    </nav>
+
+    <main>
+        <!-- Tabela com informações de contato (e-mail, telefone) -->
+        <h2>Informações de Contato</h2>
+        <table>
+            <caption>Detalhes para contato</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Meio</th>
+                    <th scope="col">Detalhe</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><label for="email-contato">Email:</label>gustavo39oppelt@gmail.com</td>
+                </tr>
+                <tr>
+                    <td><label for="telefone-contato">Telefone:85991934209</label></td>
+                    
+                    <!-- Comentário: Informação de telefone -->
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Link externo para uma rede social -->
+        <h2>Me Siga nas Redes Sociais</h2>
+        <p>
+            Você também pode me encontrar e se conectar comigo através das minhas redes sociais:
+            <a href="https://www.linkedin.com/in/seu-perfil-linkedin/" target="_blank">LinkedIn</a> |
+            <a https://www.instagram.com/gustavooppelt/>Instagram</a>
+            <!-- Comentário: Links para redes sociais -->
+        </p>
+
+        <!-- Formulário com campos de input obrigatórios (usando HTML5 'required') -->
+        <h2>Envie uma Mensagem Rápida</h2>
+        <form action="#" method="post">
+            <div>
+                <label for="nome-msg">Seu Nome:</label><br>
+                <!-- Campo de input obrigatório -->
+                <input type="text" id="nome-msg" name="nome_usuario" required placeholder="Digite seu nome">
+                <!-- Comentário: Campo de nome obrigatório -->
+            </div>
+            <br>
+            <div>
+                <label for="email-msg">Seu Email:</label><br>
+                <!-- Campo de input obrigatório -->
+                <input type="email" id="email-msg" name="email_usuario" required placeholder="seu.email@exemplo.com">
+                <!-- Comentário: Campo de email obrigatório -->
+            </div>
+            <br>
+            <div>
+                <label for="mensagem-msg">Sua Mensagem:</label><br>
+                <!-- Campo de textarea obrigatório -->
+                <textarea id="mensagem-msg" name="texto_mensagem" rows="5" required placeholder="Digite sua mensagem aqui..."></textarea>
+                <!-- Comentário: Campo de mensagem obrigatório -->
+            </div>
+            <br>
+            <div>
+                <button type="submit">Enviar Mensagem</button>
+                <!-- Comentário: Botão de submit -->
+            </div>
+        </form>
+        <!-- Comentário: Formulário de contato -->
+
+    </main>
+
+    <footer>
+       
+        <!-- Comentário: Rodapé simples -->
+    </footer>
+
+</body>
+</html>
+
+4.Estrutura de navegação
+<iframe src="documento_final.pdf" width="800" height="600" title="Documento PDF">trabalho html</iframe>
+
